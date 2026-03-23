@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  padding: 30px;
+}
+
+.container {
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container div {
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.top {
+  height: 120px;
+}
+.middle {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.small {
+  flex: 1;
+}
+
+.box {
+  flex: 2;
+}
+
+.bottom {
+  height: 120px;
+}
